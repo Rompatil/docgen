@@ -1,0 +1,41 @@
+# Module: core
+
+## Overview
+
+[No API key configured — summaries unavailable]
+
+## Files
+
+- `src/core/pipeline.ts` — 2 functions
+
+## Public API
+
+- `function` **runPipeline**
+- `function` **runAnalysisOnly**
+
+## Key Functions
+
+### `runPipeline(config: DocgenConfig)`
+
+**Returns:** `Promise`
+
+Async function `runPipeline(config: DocgenConfig)`. Returns `Promise`. ⚠️ High complexity.
+
+### `runAnalysisOnly(config: DocgenConfig)`
+
+**Returns:** `Promise`
+
+Async function `runAnalysisOnly(config: DocgenConfig)`. Returns `Promise`.
+
+## Dependencies
+
+This module depends on:
+
+- [`types`](./modules/types.md)
+- [`core/analyzers`](./modules/core-analyzers.md)
+- [`core/generators`](./modules/core-generators.md)
+- [`utils`](./modules/utils.md)
+
+## Used By
+
+- [`cli`](./modules/cli.md)
