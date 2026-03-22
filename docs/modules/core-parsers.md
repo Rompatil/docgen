@@ -2,23 +2,28 @@
 
 ## Overview
 
-The `core/parsers` module contains 3 files and exports 7 public symbols.  Dependencies: types, utils. Used by: core/analyzers.
+[No API key configured — summaries unavailable]
 
 ## Files
 
 - `src/core/parsers/javascript.ts` — 14 functions
-- `src/core/parsers/python.ts` — 11 functions
-- `src/core/parsers/registry.ts` — 3 functions
+- `src/core/parsers/python-regex.ts` — 11 functions
+- `src/core/parsers/python.ts` — 19 functions
+- `src/core/parsers/registry.ts` — 4 functions
 
 ## Public API
 
 - `function` **parseJavaScriptFile**
+- `function` **parsePythonFile**
+- `function` **parsePythonFileAsync**
 - `function` **parsePythonFile**
 - `function` **parseFile**
 - `function` **canParse**
 - `function` **getSupportedLanguages**
 - `variable` **parseJavaScriptFile**
 - `variable` **parsePythonFile**
+- `variable` **parsePythonFileAsync**
+- `function` **warmup**
 
 ## Key Functions
 
@@ -27,6 +32,18 @@ The `core/parsers` module contains 3 files and exports 7 public symbols.  Depend
 **Returns:** `AnalyzedFile`
 
 Function `parseJavaScriptFile(filePath: string, content: string, rootDir: string)`. Returns `AnalyzedFile`. ⚠️ High complexity.
+
+### `parsePythonFile(filePath: string, content: string, rootDir: string)`
+
+**Returns:** `AnalyzedFile`
+
+Function `parsePythonFile(filePath: string, content: string, rootDir: string)`. Returns `AnalyzedFile`.
+
+### `parsePythonFileAsync(filePath: string, content: string, rootDir: string)`
+
+**Returns:** `Promise`
+
+Async function `parsePythonFileAsync(filePath: string, content: string, rootDir: string)`. Returns `Promise`.
 
 ### `parsePythonFile(filePath: string, content: string, rootDir: string)`
 
@@ -52,6 +69,12 @@ Function `canParse(filePath: string)`. Returns `boolean`.
 
 Function `getSupportedLanguages()`. Returns `array`.
 
+### `warmup()`
+
+**Returns:** `Promise`
+
+Async function `warmup()`. Returns `Promise`.
+
 ## Dependencies
 
 This module depends on:
@@ -62,3 +85,4 @@ This module depends on:
 ## Used By
 
 - [`core/analyzers`](./modules/core-analyzers.md)
+- [`tests/parsers`](./modules/tests-parsers.md)

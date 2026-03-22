@@ -2,10 +2,11 @@
 
 ## Overview
 
-The `root` module contains 1 file and exports 11 public symbols.  Dependencies: none. Used by: none.
+[No API key configured — summaries unavailable]
 
 ## Files
 
+- `jest.config.js` — 11 lines
 - `src/index.ts` — 20 lines
 
 ## Public API

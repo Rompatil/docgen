@@ -4,7 +4,7 @@
 
 ## Overview
 
-The `cli` module contains 1 file and exports 0 public symbols. Serves as a **api** layer. Dependencies: config, core, utils, types. Used by: none.
+[No API key configured — summaries unavailable]
 
 ## Files
 

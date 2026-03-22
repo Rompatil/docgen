@@ -2,7 +2,7 @@
 
 ## Overview
 
-The `core/analyzers` module contains 1 file and exports 1 public symbol.  Dependencies: types, core/parsers, utils, core/cache. Used by: core.
+[No API key configured — summaries unavailable]
 
 ## Files
 

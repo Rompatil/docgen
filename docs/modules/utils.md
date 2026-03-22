@@ -4,7 +4,7 @@
 
 ## Overview
 
-The `utils` module contains 2 files and exports 18 public symbols. Serves as a **utility** layer. Dependencies: none. Used by: ai, cli, core/analyzers, core/cache, core/generators, core/parsers, core.
+[No API key configured — summaries unavailable]
 
 ## Files
 
@@ -25,6 +25,7 @@ The `utils` module contains 2 files and exports 18 public symbols. Serves as a *
 - `function` **truncate**
 - `function` **detectFrameworks**
 - `function` **parsePackageJson**
+- `type` **LogLevel**
 - `class` **Logger**
 - `variable` **logger**
 - `default` **logger** (default)

@@ -2,7 +2,7 @@
 
 ## Overview
 
-The `core/cache` module contains 1 file and exports 1 public symbol.  Dependencies: types, utils. Used by: core/analyzers.
+[No API key configured — summaries unavailable]
 
 ## Files
 

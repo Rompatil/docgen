@@ -2,7 +2,7 @@
 
 ## Overview
 
-The `core` module contains 1 file and exports 2 public symbols.  Dependencies: types, core/analyzers, core/generators, utils. Used by: cli.
+[No API key configured — summaries unavailable]
 
 ## Files
 
@@ -10,6 +10,7 @@ The `core` module contains 1 file and exports 2 public symbols.  Dependencies: t
 
 ## Public API
 
+- `type` **PipelineResult**
 - `function` **runPipeline**
 - `function` **runAnalysisOnly**
 

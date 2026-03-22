@@ -2,11 +2,43 @@
 
 ## Overview
 
-The `types` module contains 1 file and exports 0 public symbols.  Dependencies: none. Used by: ai, cli, config, core/analyzers, core/cache, core/generators, core/parsers, core.
+[No API key configured — summaries unavailable]
 
 ## Files
 
 - `src/types/definitions.ts` — 231 lines
+
+## Public API
+
+- `type` **SupportedLanguage**
+- `type` **SupportedFramework**
+- `type` **AnalyzedFile**
+- `type` **FunctionInfo**
+- `type` **ParameterInfo**
+- `type` **ClassInfo**
+- `type` **PropertyInfo**
+- `type` **ImportInfo**
+- `type` **ExportInfo**
+- `type` **APIEndpoint**
+- `type` **SchemaInfo**
+- `type` **CommentInfo**
+- `type` **ModuleInfo**
+- `type` **ProjectAnalysis**
+- `type` **LanguageStats**
+- `type` **FrameworkDetection**
+- `type` **DependencyEdge**
+- `type` **ExternalDependency**
+- `type` **ConfigFile**
+- `type` **EnvVariable**
+- `type` **ParseError**
+- `type` **DocgenConfig**
+- `type` **GeneratorName**
+- `type` **AIConfig**
+- `type` **CacheConfig**
+- `type` **GeneratedDoc**
+- `type` **DocgenPlugin**
+- `type` **PluginAnalyzer**
+- `type` **PluginGenerator**
 
 ## Used By
 

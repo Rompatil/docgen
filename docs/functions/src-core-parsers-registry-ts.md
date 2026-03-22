@@ -1,6 +1,6 @@
 # src/core/parsers/registry.ts
 
-**Language:** typescript | **Lines:** 33
+**Language:** typescript | **Lines:** 42
 
 **Internal imports:** `../../types/definitions`, `./javascript`, `./python`, `../../utils/helpers`, `../../utils/logger`
 
@@ -46,5 +46,15 @@ Function `canParse(filePath: string)`. Returns `boolean`.
 Function `getSupportedLanguages()`. Returns `array`.
 
 📍 Defined at line 35–37
+
+---
+
+### `async warmup()`
+
+**Returns:** `Promise`
+
+Async function `warmup()`. Returns `Promise`.
+
+📍 Defined at line 46–50
 
 ---
